@@ -1,0 +1,28 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav{
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: start;
+    padding: 16px;
+    gap: 24px;
+    // orange gradient
+    background: linear-gradient(180deg, #ffbc82 0%, #f4a142 100%);
+    a{
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+        font-size: 1.5rem;
+
+        &:hover{
+            color: #000000;
+        }
+    }
+}
